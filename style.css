@@ -139,3 +139,19 @@ h1 {
 .item .update-controller button:hover {
   background-color: #005aa7; /* Darker shade of blue */
 }
+
+/* Pop of Color */
+.to-do-input input[type="text"],
+.to-do-input button,
+.item .edit-controller i,
+.item .update-controller button {
+  transition: background-color 0.3s ease;
+}
+
+.to-do-input input[type="text"]:focus,
+.to-do-input button:hover,
+.item .edit-controller i:hover,
+.item .update-controller button:hover {
+  background-color: #ffaa00; /* Pop color - Yellow */
+  color: #333;
+}
