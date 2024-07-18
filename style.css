@@ -66,17 +66,18 @@ body {
   border-radius: 4px;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.item-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.item-content {
+  flex: 1;
+  margin-right: 10px;
+}
+
 .item-content p {
   margin: 0;
-  flex: 1;
   font-size: 16px;
 }
 
