@@ -63,7 +63,7 @@ h1 {
 
 .to-do-input button {
   padding: 12px 20px;
-  background-color: #61bd4f;
+  background-color: #61bd4f; /* Muted Green */
   color: #fff;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -72,7 +72,7 @@ h1 {
 }
 
 .to-do-input button:hover {
-  background-color: #5aac44;
+  background-color: #5aac44; /* Darker shade of green */
 }
 
 .to-do-list {
@@ -128,7 +128,7 @@ h1 {
 .item .update-controller button {
   margin-left: 10px;
   padding: 8px 15px;
-  background-color: #0079bf;
+  background-color: #0079bf; /* Pop color - Blue */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -137,5 +137,5 @@ h1 {
 }
 
 .item .update-controller button:hover {
-  background-color: #005aa7;
+  background-color: #005aa7; /* Darker shade of blue */
 }
