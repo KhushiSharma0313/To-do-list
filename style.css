@@ -30,6 +30,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
+  color: #3498db; /* Pop color - Blue */
 }
 
 .input-header {
@@ -43,6 +44,7 @@ h1 {
 
 .input-header h1 {
   font-size: 1.2rem;
+  color: #e67e22; /* Pop color - Orange */
 }
 
 .to-do-input {
@@ -120,7 +122,7 @@ h1 {
 }
 
 .item .edit-controller i:hover {
-  color: #333; /* Dark text on hover */
+  color: #e67e22; /* Pop color - Orange */
 }
 
 .item .update-controller {
