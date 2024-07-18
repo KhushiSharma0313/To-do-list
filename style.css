@@ -49,7 +49,7 @@ button:hover {
   border-top-right-radius: 8px;
 }
 
-.input-header h2 {
+.input-header h1 {
   font-size: 1.8rem; /* Larger header font size */
 }
 
@@ -124,6 +124,10 @@ button:hover {
 
 textarea:focus {
   box-shadow: 0 0 5px #0079bf; /* Trello blue shadow on focus */
+}
+
+.update-controller {
+  display: none;
 }
 
 @media (max-width: 768px) {
