@@ -6,34 +6,34 @@
 }
 
 body {
-  background: rgb(5, 4, 74); /* Fallback for older browsers */
-  background: radial-gradient(circle, rgba(147, 130, 188, 1) 0%, rgba(24, 61, 155, 1) 100%);
-  font-family: "Arial", sans-serif;
+  background: #f5f5f5; /* Light gray background */
+  font-family: "Roboto", Arial, sans-serif; /* Improved readability */
+  font-size: 16px; /* Base font size */
   font-weight: 400;
-  font-style: normal;
+  line-height: 1.5;
   color: #333;
 }
 
 button {
   cursor: pointer;
   color: #fff;
-  background-color: #007bff;
+  background-color: #007bff; /* Primary blue */
   border: none;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border-radius: 5px;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Darker shade of primary blue on hover */
 }
 
 .app {
   max-width: 800px;
   margin: auto;
   padding: 50px 20px;
-  background-color: #f0f0f0;
+  background-color: #fff; /* White background */
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -43,14 +43,14 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #007bff;
+  background-color: #007bff; /* Primary blue for header */
   color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .input-header h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem; /* Larger header font size */
 }
 
 .to-do-input {
@@ -61,25 +61,26 @@ button:hover {
 
 .to-do-input input[type="text"] {
   flex: 1;
-  padding: 12px;
+  padding: 14px;
   border: 1px solid #ccc;
   border-radius: 5px 0 0 5px;
   outline: none;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1rem; /* Increased input font size */
 }
 
 .to-do-input button {
   color: #fff;
-  background-color: #28a745;
+  background-color: #28a745; /* Success green */
   border: none;
-  padding: 12px 20px;
+  padding: 14px 24px;
   border-radius: 0 5px 5px 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   transition: background-color 0.3s ease;
 }
 
 .to-do-input button:hover {
-  background-color: #218838;
+  background-color: #218838; /* Darker shade of success green on hover */
 }
 
 .to-do-list {
@@ -87,19 +88,19 @@ button:hover {
 }
 
 .item {
-  background-color: #fff;
+  background-color: #f0f0f0; /* Light gray background */
   border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .item h3 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 1.2rem; /* Larger font size for item titles */
 }
 
 .item p {
-  margin-bottom: 10px;
   color: #666;
 }
 
@@ -111,17 +112,18 @@ button:hover {
 
 .input-controller textarea {
   flex: 1;
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1rem; /* Increased textarea font size */
   resize: none;
   transition: box-shadow 0.3s ease;
 }
 
 textarea:focus {
-  box-shadow: 0 0 5px #007bff;
+  box-shadow: 0 0 5px #007bff; /* Primary blue shadow on focus */
 }
 
 @media (max-width: 768px) {
